@@ -7,9 +7,9 @@ My Java solutions for LeetCode problems.
 Files are named by problem number:
 
 ```text
-problem_1920.java
-problem_771.java
-problem_1108.java
+problems/problem_1920.java
+problems/problem_771.java
+problems/problem_1108.java
 ```
 
 Each file contains a standalone Java class with a small `main` method for local testing.
@@ -19,11 +19,11 @@ Each file contains a standalone Java class with a small `main` method for local 
 Compile a solution:
 
 ```bash
-javac problem_1920.java
+javac problems/problem_1920.java
 ```
 
 Run it:
 
 ```bash
-java problem_1920
+java -cp problems problem_1920
 ```
